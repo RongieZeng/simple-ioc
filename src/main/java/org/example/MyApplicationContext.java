@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * The container
+ */
 public class MyApplicationContext {
 
     static ConcurrentHashMap<String, Object> container = new ConcurrentHashMap<>();
